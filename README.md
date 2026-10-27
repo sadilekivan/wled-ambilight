@@ -1,9 +1,13 @@
 # WLED Ambilight
 
-As of now the project has some hardcoded values for the strip setup, but other than that works well.
+Create a strip config, run and stream your monitor colors to a strip on the back!
 
-Thanks to the scrap crate this should be platform agnostic for all PCs.
+# Implemented protocols
 
-Started implementation of both DRGB and WARLS
+- DRGB
+- WARLS
 
-TODO: Some cleanup from old methods I tinkered and tested with
+# Sector sampling method
+
+- Center pixel
+- Mean average
